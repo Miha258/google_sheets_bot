@@ -7,7 +7,7 @@ from aiogram.types import ParseMode
 
 CREDENTIALS_FILE = './credentials.json'
 SCOPE = ['https://spreadsheets.google.com/feeds', 'https://www.googleapis.com/auth/drive']
-bot_token = "6801366589:AAF9fQyqEI05OUs_LjeTb19vM4MwX8ViRG4"
+bot_token = "6397347343:AAH2qdJ0ch-AB65FwX374pt5-_GROefQ4vw"
 
 bot = Bot(token = bot_token, parse_mode = ParseMode.HTML)
 storage = MemoryStorage()
